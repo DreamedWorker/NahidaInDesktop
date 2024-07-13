@@ -12,5 +12,6 @@ import SwiftUI
 struct NahidaWidgetBundle: WidgetBundle {
     var body: some Widget {
         NahidaWidget()
+        TextBasedWidget()
     }
 }

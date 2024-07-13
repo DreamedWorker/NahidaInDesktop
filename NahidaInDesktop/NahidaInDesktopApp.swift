@@ -12,6 +12,7 @@ struct NahidaInDesktopApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .defaultAppStorage(UserDefaults(suiteName: "org.dream.nidw") ?? .standard)
         }
     }
 }

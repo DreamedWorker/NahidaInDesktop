@@ -23,7 +23,7 @@ struct Provider: TimelineProvider {
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
+        for hourOffset in 0 ..< 24 {
             let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
             let entry = SimpleEntry(date: entryDate, emoji: "😀")
             entries.append(entry)
@@ -69,7 +69,7 @@ struct NahidaWidget: Widget {
                     .background()
             }
         }
-        .configurationDisplayName("My Widget")
+        .configurationDisplayName("?????")
         .description("This is an example widget.")
     }
 }
