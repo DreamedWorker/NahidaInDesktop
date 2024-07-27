@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  GIWidget
+
+  Created by 鸳汐 on 2024/7/23.
+  
+*/
+"app.event.ok" = "OK";
+"app.event.confirm" = "Confirm";
+"app.event.cancel" = "Cancel";
+
+"home.menu.group.manager" = "Groups";
+"home.menu.sentences" = "Sentences";
+"home.menu.images" = "Images";
+
+"group.add" = "Add a new group";
+"group.remove" = "Remove";
+"group.save" = "Save";
+"group.search" = "Query the corresponding character";
+"group.explanation" = "Apply Group to make your sentences only effective for certain widgets.";
+"group.file.init.err" = "Encountered issues while initializing files";
+"group.file.load.err" = "Problems occured while processing the file";
+"group.error.dialog" = "Error occured!";
+"group.retry" = "Retry";
+"group.name" = "Group name";
+"group.name.tip" = "Please avoid using numbers as the first char of your group name.";
+
+"sentence.title" = "Add short sentences to be displayed (preferably no more than 12 Chinese characters, without punctuation marks).";
+

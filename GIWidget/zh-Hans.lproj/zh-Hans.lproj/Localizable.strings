@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  GIWidget
+
+  Created by 鸳汐 on 2024/7/23.
+  
+*/
+"app.event.ok" = "OK";
+"app.event.confirm" = "确认";
+"app.event.cancel" = "取消";
+
+"home.menu.group.manager" = "分组管理";
+"home.menu.sentences" = "语句管理";
+"home.menu.images" = "图像管理";
+
+"group.add" = "新增分组依据";
+"group.remove" = "移除这一项";
+"group.save" = "保存更改";
+"group.search" = "查询对应的角色";
+"group.explanation" = "应用分组使你的语句仅对部分小组件生效。";
+"group.file.init.err" = "初始化文件时遇到问题";
+"group.file.load.err" = "处理文件时出现问题";
+"group.error.dialog" = "发生错误";
+"group.retry" = "重试";
+"group.name" = "分组名称";
+"group.name.tip" = "请尽量避免以数字开头命名，推荐以角色名作为分组名以方便管理。";
+
+"sentence.title" = "添加要展示出来的短句（不超过12个汉字为宜，不含标点符号）。";
+"sentence.add" = "添加语句";
+"sentence.context.tip" = "输入要展示的语句";
